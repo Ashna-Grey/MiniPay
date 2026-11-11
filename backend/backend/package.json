@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run --no-file-parallelism",
-    "start": "tsx --env-file=.env src/server.ts",
+    "start": "tsx src/server.ts",
     "seed:admin": "tsx --env-file=.env src/seedAdmin.ts",
     "typecheck": "tsc --noEmit"
   },
