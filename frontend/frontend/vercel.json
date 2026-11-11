@@ -1,5 +1,10 @@
+
 {
   "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://minipay-backend-qwu9.onrender.com/api/:path*"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
